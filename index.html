@@ -3,9 +3,10 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Muhwezi Donald Hastings | Web & AI Developer</title>
+  <title>Muhwezi Donald Hastings | Web & AI Developer</title> <!-- This is the tab title -->
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.5/gsap.min.js"></script>
+  <!-- tailwind script for darkmode -->
   <script>
     tailwind.config = {
       darkMode: 'class',
@@ -25,10 +26,15 @@
 
   <!-- Hero Section -->
   <section class="h-screen flex flex-col justify-center items-center text-center px-4" id="hero">
+    <!-- This is where the profile picture is -->
     <img src="assets/profile.jpg" alt="Muhwezi Donald Hastings" class="w-32 h-32 rounded-full mb-4 shadow-lg border-4 border-white dark:border-gray-800" />
+    
     <lottie-player src="https://assets9.lottiefiles.com/packages/lf20_kyu7xb1v.json" background="transparent" speed="1" style="width: 100px; height: 100px;" loop autoplay></lottie-player>
+    <!-- Heading Title/Name -->
     <h1 class="text-4xl md:text-6xl font-bold mb-4">Muhwezi Donald Hastings</h1>
+    <!-- Opening Paragraph-->
     <p class="text-xl md:text-2xl mb-6">Web, SaaS, & AI Agent Developer</p>
+    
     <a href="#projects" class="bg-blue-600 text-white px-6 py-3 rounded-full hover:bg-blue-700 transition">See My Work</a>
   </section>
 
@@ -40,6 +46,7 @@
   </section>
 
   <!-- Skills Section -->
+  <!-- Edit and add your own skills with icons. edit also between the quotes -->
   <section class="py-16 px-4 max-w-6xl mx-auto" id="skills">
     <h2 class="text-3xl font-semibold mb-10 text-center">Tech Stack & Tools</h2>
     <div class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-8 text-center text-4xl">
@@ -93,6 +100,7 @@
   <section class="py-16 px-4 bg-gray-100 dark:bg-gray-800" id="contact">
     <h2 class="text-3xl font-semibold mb-6 text-center">Get In Touch</h2>
     <div class="flex flex-col md:flex-row justify-center items-center gap-8">
+      <!-- Change this to your formspree link -->
       <form action="https://formspree.io/f/mwplrwra" method="POST" class="bg-white dark:bg-gray-700 p-6 rounded-xl shadow-lg w-full max-w-md">
         <input type="text" name="name" placeholder="Your Name" required class="w-full mb-4 p-2 rounded border border-gray-300 dark:border-gray-600" />
         <input type="email" name="email" placeholder="Your Email" required class="w-full mb-4 p-2 rounded border border-gray-300 dark:border-gray-600" />
